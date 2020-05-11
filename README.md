@@ -25,6 +25,7 @@ MCRYPT_RIJNDAEL_256 is not AES-256, it's a different variant of the Rijndael blo
 mean while,you will need to install libmcrypt,
 because the luaaes will load  the libmcrypt with FFI,
 try to install libmcrypt
+
 Linux:
 ```
 yum install libmcrypt libmcrypt-devel
