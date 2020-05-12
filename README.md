@@ -15,7 +15,7 @@ encrypt with lua:
 local aes    = require("resty.aes_ecb")
 
 local data      =   'lyafei'
-local key       =   '1234567891234567' --length is 16
+local key       =   '12345678912345678912345678912345' --length is 32
 local ecb       = aes:new();
 local enc_data  = ecb:encrypt(key,data );
 
