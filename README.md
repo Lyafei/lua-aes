@@ -1,4 +1,4 @@
-# luaaes
+# lua-aes
 
 
 some phper maybe find that the libraries in nginx-lua is not enough,
